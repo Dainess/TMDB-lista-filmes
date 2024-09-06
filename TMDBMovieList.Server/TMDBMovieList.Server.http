@@ -1,0 +1,6 @@
+@TMDBMovieList.Server_HostAddress = http://localhost:5240
+
+GET {{TMDBMovieList.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
