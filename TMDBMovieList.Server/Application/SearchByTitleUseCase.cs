@@ -2,19 +2,18 @@
 using RestSharp;
 using TMDBMovieList.Server.Controllers;
 using TMDBMovieList.Server.Enitites;
-using TMDBMovieList.Server.Exceptions;
 
 namespace TMDBMovieList.Server.Application
 {
     public class SearchByTitleUseCase
     {
-        public IEnumerable<Filme> Execute(string movieTitle)
+        public IEnumerable<Filme> Execute(string movieTitle, string bearer)
         {
             var options = new RestClientOptions($"https://api.themoviedb.org/3/search/movie?query={movieTitle}&include_adult=false&language=pt-BR&page=1");
             var client = new RestClient(options);
             var request = new RestRequest("");
             request.AddHeader("accept", "application/json");
-            request.AddHeader("Authorization", "Bearer ***REMOVED***");
+            request.AddHeader("Authorization", $"Bearer {bearer}");
             var response = client.Get(request);
 
             var json = response.Content != null ? response.Content : string.Empty;

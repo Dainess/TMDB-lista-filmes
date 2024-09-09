@@ -16,10 +16,10 @@ namespace TMDBMovieList.Server.Controllers
         [Route("{movieTitle}")]
         /*[ProducesResponseType(typeof(ResponseFullDonorJson), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseErrorsJson), StatusCodes.Status404NotFound)]*/
-        public IEnumerable<Filme> SearchByTitle([FromRoute] string movieTitle)
+        public IEnumerable<Filme> SearchByTitle([FromRoute] string movieTitle, [FromQuery] string bearer)
         {
             var useCase = new SearchByTitleUseCase();
-            var results = useCase.Execute(movieTitle);
+            var results = useCase.Execute(movieTitle, bearer);
             return results;
         }
 

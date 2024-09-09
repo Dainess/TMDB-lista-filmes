@@ -16,18 +16,25 @@ Programa para um usuário criar listas de filmes a partir da API do TMDB
 
 ## Instruções de uso:
 1) Baixe o projeto do GitHub
-2) Abra o Projeto no Visual Studio 2022
-3) Clique em Start
-	
-	Abrirá uma tela do navegador com a interface e o programa estará apto para uso
+2) Crie uma conta no TMDB e requisite uma API de desenvolvedor
+3) dentro do diretório onde o repo for clonado, vá em TMDBMovieList\tmdbmovielist.client\src 
+4) crie dentro deste diretório um arquivo chamado config.js e o salve com o seguinte código:
+	```
+		var config = {
+			TMDB_BEARER: 'TOKEN'
+		}
+	```
+	trocando a palavra TOKEN pelo seu token de acesso da API obtida no TMDB.
+
+5) Abra o Projeto no Visual Studio 2022
+6) Clique em Start. Abrirá uma tela do navegador com a interface e o programa estará apto para uso
 
 ## O que não funciona como esperado:
 1) O botão Remover Filme não atualiza a tela, precisa clicar de novo em Mostra Lista para ver o resultado
 2) O link gerado só vai funcionar na máquina rodando a aplicação, não foi possível levantar um Heroku para o link ser compartilhável
 3) Tal link também não está criptografado
 4) Tratamento de dados não existe, o programa é ingênuo e confia que o dado virá bem tratado da API
-5) As chaves da API para o TMDB não estão obscurecidas
-6) Os links criados não estão em Unicode e estranham caracteres como 'ã'
+5) Os links criados não estão em Unicode e estranham caracteres como 'ã'
 
 ## Tecnologias escolhidas:
 	React, C# e MySQL 
@@ -59,6 +66,7 @@ Programa para um usuário criar listas de filmes a partir da API do TMDB
 		Any use of the TMDB logo in your application shall be less prominent than the logo or mark that primarily describes the application and your use of the TMDB logo shall not imply any endorsement by TMDB. When attributing TMDB, the attribution must be within your application's "About" or "Credits" type section.
 		When using a TMDB logo, we require you to use one of our approved logos.
 	- CHECK eu não sei se esse db salvo desse jeito vai funcionar em um release?
+	- CHECK proteger chaves de API
 	- tratamento de erros (fluentvalidation)
 		erro da busca vazia não funcionou
 	- formato de exibição do release_date
@@ -70,10 +78,12 @@ Programa para um usuário criar listas de filmes a partir da API do TMDB
 	- Opção de buscar os filmes top rated
 	- troca dos links no react pelo nome da entity
 	- permitir buscas amplas (por ano, por gênero, país, língua original)
+	- sincronia imperfeita entre Mostrar Lista e Adicionar Filme
 	- async/await
 	- testes unitários e de integração
-	- proteger chaves de API
+	- deployment na Vercel
 	- SSL
+	- múltiplos usuários
 
 ## Sobre:
 Projeto realizado por Daniel Couto Mittelman.

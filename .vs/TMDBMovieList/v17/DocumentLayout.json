@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E79EF8C8-1383-4AB1-974A-DEA4CC56F233}|tmdbmovielist.client\\tmdbmovielist.client.esproj|d:\\backup2023\\progprojects\\professional\\verzel\\tmdbmovielist\\tmdbmovielist.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E79EF8C8-1383-4AB1-974A-DEA4CC56F233}|tmdbmovielist.client\\tmdbmovielist.client.esproj|solutionrelative:tmdbmovielist.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{6C90D26E-DED9-4F52-B484-AB60FEED5404}|TMDBMovieList.Server\\TMDBMovieList.Server.csproj|d:\\backup2023\\progprojects\\professional\\verzel\\tmdbmovielist\\tmdbmovielist.server\\controllers\\tmdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C90D26E-DED9-4F52-B484-AB60FEED5404}|TMDBMovieList.Server\\TMDBMovieList.Server.csproj|solutionrelative:tmdbmovielist.server\\controllers\\tmdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E79EF8C8-1383-4AB1-974A-DEA4CC56F233}|tmdbmovielist.client\\tmdbmovielist.client.esproj|d:\\backup2023\\progprojects\\professional\\verzel\\tmdbmovielist\\tmdbmovielist.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E79EF8C8-1383-4AB1-974A-DEA4CC56F233}|tmdbmovielist.client\\tmdbmovielist.client.esproj|solutionrelative:tmdbmovielist.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6C90D26E-DED9-4F52-B484-AB60FEED5404}|TMDBMovieList.Server\\TMDBMovieList.Server.csproj|d:\\backup2023\\progprojects\\professional\\verzel\\tmdbmovielist\\tmdbmovielist.server\\tmdbmovielist.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6C90D26E-DED9-4F52-B484-AB60FEED5404}|TMDBMovieList.Server\\TMDBMovieList.Server.csproj|solutionrelative:tmdbmovielist.server\\tmdbmovielist.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E79EF8C8-1383-4AB1-974A-DEA4CC56F233}|tmdbmovielist.client\\tmdbmovielist.client.esproj|d:\\backup2023\\progprojects\\professional\\verzel\\tmdbmovielist\\tmdbmovielist.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E79EF8C8-1383-4AB1-974A-DEA4CC56F233}|tmdbmovielist.client\\tmdbmovielist.client.esproj|solutionrelative:tmdbmovielist.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.css",
-              "DocumentMoniker": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\tmdbmovielist.client\\src\\App.css",
-              "RelativeDocumentMoniker": "tmdbmovielist.client\\src\\App.css",
-              "ToolTip": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\tmdbmovielist.client\\src\\App.css",
-              "RelativeToolTip": "tmdbmovielist.client\\src\\App.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-06T05:29:33.704Z",
+              "DocumentIndex": 0,
+              "Title": "TMDBController.cs",
+              "DocumentMoniker": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\TMDBMovieList.Server\\Controllers\\TMDBController.cs",
+              "RelativeDocumentMoniker": "TMDBMovieList.Server\\Controllers\\TMDBController.cs",
+              "ToolTip": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\TMDBMovieList.Server\\Controllers\\TMDBController.cs",
+              "RelativeToolTip": "TMDBMovieList.Server\\Controllers\\TMDBController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwBQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:09:06.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "TMDBMovieList.Server.http",
+              "DocumentMoniker": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\TMDBMovieList.Server\\TMDBMovieList.Server.http",
+              "RelativeDocumentMoniker": "TMDBMovieList.Server\\TMDBMovieList.Server.http",
+              "ToolTip": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\TMDBMovieList.Server\\TMDBMovieList.Server.http",
+              "RelativeToolTip": "TMDBMovieList.Server\\TMDBMovieList.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-09-09T16:55:01.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "App.jsx",
               "DocumentMoniker": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\tmdbmovielist.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "tmdbmovielist.client\\src\\App.jsx",
               "ToolTip": "D:\\Backup2023\\ProgProjects\\Professional\\Verzel\\TMDBMovieList\\tmdbmovielist.client\\src\\App.jsx",
               "RelativeToolTip": "tmdbmovielist.client\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwHAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-09-02T18:33:07.369Z",
               "EditorCaption": ""

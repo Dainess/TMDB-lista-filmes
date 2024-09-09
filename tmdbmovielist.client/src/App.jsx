@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 
-function App() {
+function App({TMDBbearer }) {
     function FavoritesButton({ filmResults, criarLinkLista }) {
         return (
             <button onClick={() => criarLinkLista(filmResults)}>Compartilhar</button>
@@ -116,7 +116,8 @@ function App() {
             console.log("O campo de pesquisa está vazio")
             return
         }
-        let url = `${server}/${movieTitle}`
+        console.log(TMDBbearer)
+        let url = `${server}/${movieTitle}?bearer=${TMDBbearer}`;
 
         //console.log(url)
         const response = await fetch(url);

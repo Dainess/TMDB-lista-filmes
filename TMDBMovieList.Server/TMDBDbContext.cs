@@ -31,8 +31,6 @@ namespace TMDBMovieList.Server
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            //modelBuilder.Entity<Activity>().ToTable("Activities");
         }
     }
 }

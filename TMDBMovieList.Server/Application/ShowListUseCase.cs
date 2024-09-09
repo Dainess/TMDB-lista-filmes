@@ -47,7 +47,7 @@ namespace TMDBMovieList.Server.Application
 var client = new RestClient(options);
 var request = new RestRequest("");
 request.AddHeader("accept", "application/json");
-request.AddHeader("Authorization", "Bearer ***REMOVED***");
+request.AddHeader("Authorization", $"Bearer {bearer}");
 var response = client.Get(request);
 
 var json = response.Content != null ? response.Content : string.Empty;

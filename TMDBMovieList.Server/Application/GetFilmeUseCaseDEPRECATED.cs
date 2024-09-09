@@ -8,7 +8,7 @@ namespace TMDBMovieList.Server.Application
     public class GetFilmeUseCaseDEPRECATED
     {
         [HttpGet(Name = "GetFilme")]
-        public IEnumerable<Filme> Get()
+        public IEnumerable<Filme> Get(string bearer)
         {
             string filme = "matrix";
 
@@ -16,7 +16,7 @@ namespace TMDBMovieList.Server.Application
             var client = new RestClient(options);
             var request = new RestRequest("");
             request.AddHeader("accept", "application/json");
-            request.AddHeader("Authorization", "Bearer ***REMOVED***");
+            request.AddHeader("Authorization", $"Bearer {bearer}");
             var response = client.Get(request);
 
             //Console.WriteLine("{0}", response.Content);
